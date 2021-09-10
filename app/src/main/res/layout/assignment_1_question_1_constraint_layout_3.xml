@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<ImageView
+		android:id="@+id/logo"
+		android:layout_width="120sp"
+		android:layout_height="120sp"
+		android:layout_centerHorizontal="true"
+		android:contentDescription="@string/instagram_logo"
+		android:src="@drawable/instagram_logo"
+		android:layout_margin="100sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/first_line"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/logo"
+		android:layout_marginTop="100sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/logo">
+		
+		<TextView
+			android:id="@+id/hi_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/hi"
+			android:textSize="30sp"
+			android:layout_marginStart="25sp"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			/>
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10sp"
+			android:layout_toEndOf="@id/hi_text_view"
+			android:text="@string/username_2"
+			android:textSize="30sp"
+			android:textStyle="bold"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintStart_toEndOf="@id/hi_text_view"
+			android:id="@+id/name_text_view"/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="25sp"
+			android:text="@string/login_successfully"
+			android:textSize="30sp"
+			android:id="@+id/login_successfully"
+			app:layout_constraintTop_toBottomOf="@id/name_text_view"
+			app:layout_constraintStart_toStartOf="parent"
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="25sp"
+			android:text="@string/welcome"
+			android:textSize="30sp"
+			android:layout_marginTop="125sp"
+			app:layout_constraintTop_toBottomOf="@id/login_successfully"
+			app:layout_constraintStart_toStartOf="parent"
+			/>
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
