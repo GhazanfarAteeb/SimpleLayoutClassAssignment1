@@ -10,4 +10,8 @@
 		</u>
 	</string>
 	<string name="dots">…</string>
+	<string name="hi">Hi,</string>
+	<string name="username_2">Username!</string>
+	<string name="login_successfully">Login Successfully.</string>
+	<string name="welcome">Welcome.</string>
 </resources>
