@@ -14,4 +14,7 @@
 	<string name="username_2">Username!</string>
 	<string name="login_successfully">Login Successfully.</string>
 	<string name="welcome">Welcome.</string>
+	<string name="login_screen_plant">login screen plant</string>
+	<string name="new_user">New User?</string>
+	<string name="sign_up">Sign Up</string>
 </resources>
