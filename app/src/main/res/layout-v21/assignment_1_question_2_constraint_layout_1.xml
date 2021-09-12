@@ -87,6 +87,7 @@
 			android:layout_marginTop="50sp"
 			android:background="@drawable/less_rounded_corners"
 			android:backgroundTint="@color/white"
+			android:textColor="@color/black"
 			android:text="@string/sign_in"
 			android:textAllCaps="false"
 			app:layout_constraintEnd_toEndOf="parent"
