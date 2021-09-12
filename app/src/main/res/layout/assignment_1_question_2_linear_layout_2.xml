@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="50sp"
+		android:orientation="horizontal"
+		android:baselineAligned="false">
+		<LinearLayout
+			android:layout_width="0sp"
+			android:layout_weight="1"
+			android:layout_height="50sp"
+			android:orientation="vertical"
+			android:gravity="start|center_vertical">
+			
+			<Button
+				android:layout_width="25sp"
+				android:layout_height="25sp"
+				android:layout_marginStart="20sp"
+				android:background="@drawable/ic_baseline_menu_24"
+				
+				tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="0sp"
+			android:layout_weight="1"
+			android:layout_height="50sp"
+			android:orientation="vertical"
+			android:gravity="end|center_vertical">
+			
+			<Button
+				android:layout_width="25sp"
+				android:layout_height="25sp"
+				android:layout_marginEnd="20sp"
+				android:background="@drawable/ic_baseline_shopping_cart_24"
+				tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+		</LinearLayout>
+	</LinearLayout>
+	<TextView
+		android:layout_marginTop="10sp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/what_kind_of_plant_you_want"
+		android:layout_marginStart="20sp"
+		android:layout_marginEnd="20sp"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		android:fontFamily="sans-serif"
+		android:textColor="@color/black"
+		/>
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="48sp"
+		android:layout_marginTop="10sp"
+		android:layout_marginStart="20sp"
+		android:layout_marginEnd="20sp"
+		android:autofillHints="@null"
+		android:background="@drawable/search_bar"
+		android:drawableStart="@drawable/ic_baseline_search_24"
+		android:drawableEnd="@drawable/ic_baseline_mic_24"
+		android:drawablePadding="12sp"
+		android:hint="@string/search"
+		android:inputType="text"
+		android:paddingStart="10sp"
+		android:paddingEnd="10sp"
+		tools:ignore="TextContrastCheck" />
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginTop="10sp"
+		android:orientation="horizontal"
+		android:gravity="center">
+		<Button
+			android:textAllCaps="false"
+			android:layout_height="wrap_content"
+			android:layout_width="80sp"
+			android:layout_margin="10sp"
+			android:text="@string/all"
+			style="?android:attr/buttonBarButtonStyle"
+			android:textColor="@color/black"/>
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_width="80sp"
+			android:layout_height="wrap_content"
+			android:layout_margin="10sp"
+			android:text="@string/small"
+			android:textAllCaps="false"
+			android:textColor="#329F5F"
+			tools:ignore="TextContrastCheck" />
+		<Button
+			android:textAllCaps="false"
+			android:layout_height="wrap_content"
+			android:layout_width="80sp"
+			android:layout_margin="10sp"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="@string/medium"
+			android:textColor="@color/black"/>
+		<Button
+			android:textAllCaps="false"
+			android:layout_height="wrap_content"
+			android:layout_width="80sp"
+			android:layout_margin="10sp"
+			android:text="@string/hanging"
+			style="?android:attr/buttonBarButtonStyle"
+			android:textColor="@color/black"/>
+	</LinearLayout>
+	<!--cardViews Lines-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<!-- card view per line-->
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<!-- card view -->
+			<LinearLayout
+				android:layout_marginStart="20sp"
+				android:layout_width="175sp"
+				android:layout_height="190sp"
+				android:background="@drawable/item_card_view"
+				android:orientation="horizontal">
+					<TextView
+						android:layout_margin="20sp"
+						android:layout_marginTop="30sp"
+						android:textStyle="bold"
+						android:textColor="@color/white"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="@string/indoor"
+						app:drawableRightCompat="@drawable/ic_baseline_wishlist_24" />
+						
+			</LinearLayout>
+			<!-- card view -->
+			<LinearLayout
+				android:layout_marginStart="20sp"
+				android:layout_width="175sp"
+				android:layout_height="190sp"
+				android:background="@drawable/item_card_view"
+				android:orientation="horizontal">
+				<TextView
+					android:layout_margin="20sp"
+					android:layout_marginTop="30sp"
+					android:textStyle="bold"
+					android:textColor="@color/white"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/indoor"
+					app:drawableRightCompat="@drawable/ic_baseline_wishlist_24" />
+			</LinearLayout>
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginTop="10sp">
+			<!-- card view -->
+			<LinearLayout
+				android:layout_marginStart="20sp"
+				android:layout_width="175sp"
+				android:layout_height="190sp"
+				android:background="@drawable/item_card_view"
+				android:orientation="horizontal">
+				<TextView
+					android:layout_margin="20sp"
+					android:layout_marginTop="30sp"
+					android:textStyle="bold"
+					android:textColor="@color/white"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/indoor"
+					app:drawableRightCompat="@drawable/ic_baseline_wishlist_24" />
+			
+			</LinearLayout>
+			<!-- card view -->
+			<LinearLayout
+				android:layout_marginStart="20sp"
+				android:layout_width="175sp"
+				android:layout_height="190sp"
+				android:background="@drawable/item_card_view"
+				android:orientation="horizontal">
+				<TextView
+					android:layout_margin="20sp"
+					android:layout_marginTop="30sp"
+					android:textStyle="bold"
+					android:textColor="@color/white"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/indoor"
+					app:drawableRightCompat="@drawable/ic_baseline_wishlist_24" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
