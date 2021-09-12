@@ -26,4 +26,7 @@
 	<string name="add_to_cart">Add to Cart</string>
 	<string name="menu">Menu</string>
 	<string name="indoor">Indoor</string>
+	<string name="plant1">plant1</string>
+	<string name="plant_1">Plant 1</string>
+	<string name="from_15">From $15</string>
 </resources>
