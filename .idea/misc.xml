@@ -22,7 +22,7 @@
         <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/drawable/transparency_effect_with_rounded_corners.xml" value="0.26015625" />
         <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/drawable/transparent_rounded_corners.xml" value="0.26015625" />
         <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout-v21/assignment1_question_1_linear_layout.xml" value="0.23229166666666667" />
-        <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout-v21/assignment_1_question_2_constraint_layout_1.xml" value="0.3307291666666667" />
+        <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout-v21/assignment_1_question_2_constraint_layout_1.xml" value="0.25" />
         <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout-v21/assignment_1_question_2_linear_layout_1.xml" value="0.25" />
         <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout-v21/assignment_1_question_2_relative_layout_1.xml" value="0.25" />
         <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout/activity_main.xml" value="0.264" />
@@ -39,10 +39,11 @@
         <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout/assignment_1_question_1_relative_layout_2.xml" value="0.248046875" />
         <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout/assignment_1_question_1_relative_layout_3.xml" value="0.248046875" />
         <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout/assignment_1_question_2_constraint_layout_1.xml" value="0.248046875" />
+        <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout/assignment_1_question_2_constraint_layout_2.xml" value="0.248046875" />
         <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout/assignment_1_question_2_linear_layout_1.xml" value="0.25" />
-        <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout/assignment_1_question_2_linear_layout_2.xml" value="0.25" />
+        <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout/assignment_1_question_2_linear_layout_2.xml" value="0.22" />
         <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout/assignment_1_question_2_relative_layout_1.xml" value="0.248046875" />
-        <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout/assignment_1_question_2_relative_layout_2.xml" value="0.248046875" />
+        <entry key="..\:/Android/Class/Assignments/LayoutAssignment/app/src/main/res/layout/assignment_1_question_2_relative_layout_2.xml" value="0.25" />
       </map>
     </option>
   </component>

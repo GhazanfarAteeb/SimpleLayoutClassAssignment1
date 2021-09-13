@@ -69,7 +69,6 @@
 		android:layout_height="wrap_content"
 		android:layout_width="match_parent"
 		android:orientation="horizontal"
-		android:layout_gravity="center"
 		android:layout_below="@id/search_bar"
 		android:id="@+id/navigation_bar">
 		<Button

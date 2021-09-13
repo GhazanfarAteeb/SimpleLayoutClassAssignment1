@@ -45,6 +45,7 @@
 		android:layout_height="50sp"
 		android:textSize="20sp"
 		android:text="@string/dots"
+		android:textColor="@color/white"
 		android:textAllCaps="false"
 		android:textAlignment="center"
 		android:background="@drawable/button_circle"
