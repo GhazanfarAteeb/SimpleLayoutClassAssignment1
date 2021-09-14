@@ -25,4 +25,9 @@
 	<string name="plant1">plant1</string>
 	<string name="plant_1">Plant 1</string>
 	<string name="from_15">From $15</string>
+	<string name="details">Details</string>
+	<string name="regular_price_195_00">Regular Price $195.00</string>
+	<string name="_1">1</string>
+	<string name="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</string>
+	<string name="buy_now">Buy Now</string>
 </resources>
